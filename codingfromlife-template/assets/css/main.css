@@ -1,0 +1,220 @@
+body {
+	background: #cccccc;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+
+#mat {
+	width: 550px;
+	height: 172px;
+	-webkit-transform: skew(62deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+	background: #e8f94f;
+	position: absolute;
+	left:175px;
+	top:300px;
+}
+
+
+#heart {
+	position: absolute;
+	width: 150px;
+	height: 140px;
+	top: 50px;
+	left:220px;
+	transform: rotateY(35deg) scale(1.5);
+}
+#heart:before,
+#heart:after {
+	position: absolute;
+	content: "";
+	left: 50px;
+	width: 50px;
+	height: 80px;
+	background: red;
+	-moz-border-radius: 50px 50px 0 0;
+	border-radius: 50px 50px 0 0;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-webkit-transform-origin: 0 100%;
+	-moz-transform-origin: 0 100%;
+	-ms-transform-origin: 0 100%;
+	-o-transform-origin: 0 100%;
+	transform-origin: 0 100%;
+}
+#heart:after {
+	left: 0;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-transform-origin: 100% 100%;
+	-moz-transform-origin: 100% 100%;
+	-ms-transform-origin: 100% 100%;
+	-o-transform-origin: 100% 100%;
+	transform-origin :100% 100%;
+}
+
+#bottle {
+	width: 280px;
+	height: 280px;
+	background: #223304;
+	-webkit-clip-path: polygon(44% 0, 55% 0, 56% 25%, 65% 36%, 66% 100%, 38% 100%, 37% 37%, 43% 26%);
+	clip-path: polygon(44% 0, 55% 0, 56% 25%, 65% 36%, 66% 100%, 38% 100%, 37% 37%, 43% 26%);
+	position: absolute;
+	left:100px;
+	top:75px;
+	opacity: .9;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#006e2e+2,006e2e+2,418e31+47,006e2e+100 */
+	background: #006e2e; /* Old browsers */
+	background: -moz-linear-gradient(top, #006e2e 2%, #006e2e 2%, #418e31 47%, #006e2e 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #006e2e 2%,#006e2e 2%,#418e31 47%,#006e2e 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #006e2e 2%,#006e2e 2%,#418e31 47%,#006e2e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006e2e', endColorstr='#006e2e',GradientType=0 ); /* IE6-9 */
+	}
+#cup1 {
+	width: 200px;
+	height: 200px;
+	background: #e3ecfc;
+	-webkit-clip-path: polygon(37% 0%, 59% 0%, 74% 21%, 56% 38%, 50% 48%, 68% 60%, 32% 60%, 50% 49%, 43% 38%, 24% 21%);
+	clip-path: polygon(37% 0%, 59% 0%, 74% 21%, 56% 38%, 50% 48%, 68% 60%, 32% 60%, 50% 49%, 43% 38%, 24% 21%);
+	position: absolute;
+	top:300px;
+	left:250px;
+	opacity: .8;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cbebff+0,f0f9ff+48,a1dbff+100 */
+	background: #cbebff; /* Old browsers */
+	background: -moz-linear-gradient(top, #cbebff 0%, #f0f9ff 48%, #a1dbff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #cbebff 0%,#f0f9ff 48%,#a1dbff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #cbebff 0%,#f0f9ff 48%,#a1dbff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbebff', endColorstr='#a1dbff',GradientType=0 ); /* IE6-9 */
+	copy	
+}
+#cup2{
+	width: 200px;
+	height: 200px;
+	background: #e3ecfc;
+	-webkit-clip-path: polygon(37% 0%, 59% 0%, 74% 21%, 56% 38%, 50% 48%, 68% 60%, 32% 60%, 50% 49%, 43% 38%, 24% 21%);
+	clip-path: polygon(37% 0%, 59% 0%, 74% 21%, 56% 38%, 50% 48%, 68% 60%, 32% 60%, 50% 49%, 43% 38%, 24% 21%);
+	position: absolute;
+	top:300px;
+	left:350px;
+	opacity: .8;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cbebff+0,f0f9ff+48,a1dbff+100 */
+	background: #cbebff; /* Old browsers */
+	background: -moz-linear-gradient(top, #cbebff 0%, #f0f9ff 48%, #a1dbff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #cbebff 0%,#f0f9ff 48%,#a1dbff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #cbebff 0%,#f0f9ff 48%,#a1dbff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbebff', endColorstr='#a1dbff',GradientType=0 ); /* IE6-9 */
+	copy
+}
+#vase {
+	width: 200px;
+	height: 200px;
+	background: #1e90ff;
+	-webkit-clip-path: polygon(40% 0, 69% 0, 69% 10%, 76% 17%, 79% 84%, 33% 84%, 34% 18%, 40% 10%);
+	clip-path: polygon(40% 0, 69% 0, 69% 10%, 76% 17%, 79% 84%, 33% 84%, 34% 18%, 40% 10%);
+	position: absolute;
+	left:475px;
+	top:200px;
+	opacity: .8;
+	z-index:7;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#86aecc+0,d4e4ef+100 */
+	background: #86aecc; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #86aecc 0%, #d4e4ef 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #86aecc 0%,#d4e4ef 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #86aecc 0%,#d4e4ef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#86aecc', endColorstr='#d4e4ef',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	}
+
+.flower{
+	background: #ad033e;
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	text-align: center;
+	top:50px;
+	left:500px;
+	transform: scale(.5) rotate(80deg) rotateY(55deg);
+	z-index: 5;
+
+}
+.flower:before, .flower:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 80px;
+	width: 80px;
+	background: #ad033e;;
+}
+.flower:before {
+	transform: rotate(30deg);
+
+}
+.flower:after {
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	-ms-transform: rotate(60deg);
+	-o-transform: rotate(60deg);
+
+}
+.flower2 {
+	top:75px;
+}
+.flower3 {
+	top:115px;
+	left:515px;
+}
+.flower4 {
+	top:69px;
+	left:555px;
+
+}
+.flower5 {
+	top:78px;
+	left:625px;
+}
+.flower6 {
+	top:45px;
+	left:610px;
+}
+.flower7 {
+	top:95px;
+	left:575px;
+}
+.flower8 {
+	top:35px;
+	left:555px;
+}
+.flower9 {
+	top:80;
+
+}
+#stem {
+	width: 0px;
+	height: 0px;
+	border-left: 41px solid transparent;
+	border-right: 70px solid transparent;
+	border-top: 126px solid green;
+	position: absolute;
+	top:126px;
+	left:539px;
+	opacity: .6;
+
+
+}
+
+
