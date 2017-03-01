@@ -1177,6 +1177,24 @@ body {
 	position: absolute;
 	background: black;
 }
+.dY{
+	top: 338px;
+    left: 2929.9px;
+    width: 9px;
+    height: 38px;
+    position: absolute;
+    transform: skew(36deg);
+    background: black;
+}
+.dYY{
+    top: 338px;
+    left: 2960px;
+    width: 9px;
+    height: 38px;
+    position: absolute;
+    transform: skew(-36deg);
+    background: black;
+}
 .largeserifZ {
 	width: 90px;
 	height: 45px;
