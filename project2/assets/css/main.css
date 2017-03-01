@@ -1,0 +1,1101 @@
+body {
+
+}
+.down {
+    width: 90px;
+	height: 45px;
+	top: 299px;
+	left: 150px;
+	position: absolute;
+	background: black;
+    
+    transition: height 5s;
+    -moz-transition: height 5s; /* Firefox 4 */
+    -webkit-transition: height 5s; /* Safari and Chrome */
+    -o-transition: height 5s; /* Opera */
+    -ms-transition: height 5s; /* IE9 (maybe) */
+    
+}
+
+.down:hover
+{
+    height: 60px;
+}
+
+.canvas {
+	width: 5000px;
+	height: 556px;
+	margin: 100px auto;
+	position: relative;
+}
+.babyserif {
+	width: 9px;
+	height: 9px;
+	position: absolute;
+	top: 99%;
+	left: 99%;
+	background: black;
+	display: none;
+}
+.smallserif {
+	width: 72px;
+	height: 45px;
+	top: 10%;
+	left: 10%;
+	position: absolute;
+	background: black;
+	display: none;	
+}
+.anotehrserif {
+	width: 72px;
+	height: 45px;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	background: black;
+	display: none;
+}
+.squareserif {
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	top: 10%;
+	left: 30%;
+	background: black;
+}
+.squareserifA {
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	top: 200px;
+	left: 30px;
+	background: black;
+}
+.smallserifA {
+	width: 36px;
+	height: 45px;
+	position: absolute;
+	top: 299px;
+	left: 3px;
+	background: black;
+}
+.smallserifAA {
+	width: 36px;
+	height: 45px;
+	top: 299px;
+	left: 66px;
+	position: absolute;
+	background: black;
+}
+.anotehrserifB {
+	width: 72px;
+	height: 45px;
+	position: absolute;
+	top: 200px;
+	left: 150px;
+	background: black;
+}
+.largeserifB {
+	width: 90px;
+	height: 45px;
+	top: 299px;
+	left: 150px;
+	position: absolute;
+	background: black;
+	animation: stretch;
+}
+.crossbarB {
+	width: 63px;
+	height: 9px;
+	top: 263px;
+	left: 168px;
+	position: absolute;
+	background: black;
+}
+.downstrokeB{
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 159px;
+	position: absolute;
+	background: black;
+}
+.downstrokeBB{
+	width: 9px;
+	height: 18px;
+	top: 245px;
+	left: 214px;
+	position: absolute;
+	background: black;
+}
+.downstrokeBBB{
+	width: 9px;
+	height: 36px;
+	top: 263px;
+	left: 222px;
+	position: absolute;
+	background: black;
+}
+.largeserifC {
+	width: 90px;
+	height: 45px;
+	top: 200px;
+	left: 275px;
+	position: absolute;
+	background: black;
+}
+.largeserifCC {
+	width: 90px;
+	height: 45px;
+	top: 299px;
+	left: 275px;
+	position: absolute;
+	background: black;
+}
+/*
+.downstrokeC { 
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 293px;
+	position: absolute;
+	background: black;
+}
+.largeserifCC {
+	width: 90px;
+	height: 45px;
+	top: 299px;
+	left: 275px;
+	position: absolute;
+	background: black;
+} */
+.babyserifC {
+	width: 9px;
+	height: 9px;
+	position: absolute;
+	top: 245px;
+	left: 356px;
+	background: black;
+	}
+.babyserifCC {
+	width: 9px;
+	height: 9px;
+	position: absolute;
+	top: 290px;
+	left: 356px;
+	background: black;
+	}
+.downstrokeC { 
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 293px;
+	position: absolute;
+	background: black;
+}
+.largeserifD {
+	width: 90px;
+	height: 45px;
+	top: 200px;
+	left: 375px;
+	position: absolute;
+	background: black;
+}
+.downstrokeD { 
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 393px;
+	position: absolute;
+	background: black;
+}
+.largeserifDD {
+	width: 90px;
+	height: 45px;
+	top: 299px;
+	left: 375px;
+	position: absolute;
+	background: black;
+}
+.downstrokeDD { 
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 456px;
+	position: absolute;
+	background: black;
+}
+.largeserifE {
+	width: 90px;
+	height: 45px;
+	top: 200px;
+	left: 500px;
+	position: absolute;
+	background: black;
+}
+.crossbarE {
+	width: 45px;
+	height: 9px;
+	top: 263px;
+	left: 523px;
+	position: absolute;
+	background: black;
+}
+.downstrokeE{
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 518px;
+	position: absolute;
+	background: black;
+}
+.largeserifEE {
+	width: 90px;
+	height: 45px;
+	top: 299px;
+	left: 500px;
+	position: absolute;
+	background: black;
+}
+.largeserifF {
+	width: 90px;
+	height: 45px;
+	top: 200px;
+	left: 600px;
+	position: absolute;
+	background: black;
+}
+.crossbarF {
+	width: 45px;
+	height: 9px;
+	top: 263px;
+	left: 618px;
+	position: absolute;
+	background: black;
+}
+.downstrokeF{
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 618px;
+	position: absolute;
+	background: black;
+}
+.squareserifF {
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	top: 299px;
+	left: 600px;
+	background: black;
+}
+.largeserifG {
+	width: 90px;
+	height: 45px;
+	top: 200px;
+	left: 775px;
+	position: absolute;
+	background: black;
+}
+.downstrokeG { 
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 793px;
+	position: absolute;
+	background: black;
+}
+.upstrokeG { 
+	width: 9px;
+	height: 36px;
+	top: 263px;
+	left: 856px;
+	position: absolute;
+	background: black;
+}
+.crossbarG {
+	width: 45px;
+	height: 9px;
+	top: 263px;
+	left: 820px;
+	position: absolute;
+	background: black;
+}
+.largeserifGG {
+	width: 90px;
+	height: 45px;
+	top: 299px;
+	left: 775px;
+	position: absolute;
+	background: black;
+}
+.smallserifH {
+	width: 36px;
+	height: 45px;
+	position: absolute;
+	top: 200px;
+	left: 875px;
+	background: black;
+}
+.smallserifHH{
+	width: 36px;
+	height: 45px;
+	top: 200px;
+	left: 938px;
+	position: absolute;
+	background: black;
+}
+.smallserifHHH {
+	width: 36px;
+	height: 45px;
+	position: absolute;
+	top: 299px;
+	left: 875px;
+	background: black;
+}
+.smallserifHHHH{
+	width: 36px;
+	height: 45px;
+	top: 299px;
+	left: 938px;
+	position: absolute;
+	background: black;
+}
+.downstrokeH { 
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 947px;
+	position: absolute;
+	background: black;
+}
+.downstrokeHH { 
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 893px;
+	position: absolute;
+	background: black;
+}
+.crossbarH {
+	width: 45px;
+	height: 9px;
+	top: 263px;
+	left: 902px;
+	position: absolute;
+	background: black;
+}
+.smallserifI {
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	top: 200px;
+	left: 1000px;
+	background: black;
+}
+.smallserifII {
+	width: 45px;
+	height: 45px;
+	top: 299px;
+	left: 1000px;
+	position: absolute;
+	background: black;
+}
+.downstrokeI{ 
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 1018px;
+	position: absolute;
+	background: black;
+}
+.squareserifJ {
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	top: 200px;
+	left: 1146px;
+	background: black;
+}
+.downstrokeJ{
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 1163px;
+	position: absolute;
+	background: black;
+}
+.largeserifJ {
+	width: 72px;
+	height: 45px;
+	top: 299px;
+	left: 1100px;
+	position: absolute;
+	background: black;
+}
+.babyserifJ {
+	width: 9px;
+	height: 9px;
+	position: absolute;
+	top: 290px;
+	left: 1100px;
+	background: black;
+} 
+.smallserifk {
+	width: 36px;
+	height: 45px;
+	position: absolute;
+	top: 200px;
+	left: 1200px;
+	background: black;
+}
+.smallserifkk {
+	width: 36px;
+	height: 45px;
+	top: 200px;
+	left: 1254px;
+	position: absolute;
+	background: black;
+}
+.smallserifkkk {
+	width: 36px;
+	height: 45px;
+	position: absolute;
+	top: 299px;
+	left: 1200px;
+	background: black;
+}
+.smallserifkkkk {
+	width: 36px;
+	height: 45px;
+	top: 299px;
+	left: 1263px;
+	position: absolute;
+	background: black;
+}
+.crossbark {
+	width: 45px;
+	height: 9px;
+	top: 263px;
+	left: 1227px;
+	position: absolute;
+	background: black;
+}
+.downstrokek {
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 1218px;
+	position: absolute;
+	background: black;
+}
+.downstrokekk {
+	width: 9px;
+	height: 18px;
+	top: 245px;
+	left: 1263px;
+	position: absolute;
+	background: black;
+}
+.downstrokekkk {
+	width: 9px;
+	height: 36px;
+	top: 264px;
+	left: 1272px;
+	position: absolute;
+	background: black;
+}
+.largeserifL {
+	width: 90px;
+	height: 45px;
+	top: 299px;
+	left: 1350px;
+	position: absolute;
+	background: black;
+}
+.downstrokeL { 
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 1368px;
+	position: absolute;
+	background: black;
+}
+.squareserifL {
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	top: 200px;
+	left: 1350px;
+	background: black;
+}
+.babyserifL {
+	width: 9px;
+	height: 9px;
+	position: absolute;
+	top: 290px;
+	left: 1431px;
+	background: black;
+}
+.smallserifM {
+	width: 36px;
+	height: 45px;
+	position: absolute;
+	top: 200px;
+	left: 1600px;
+	background: black;
+}
+.smallserifMM { 
+	width: 36px;
+	height: 45px;
+	top: 200px;
+	left: 1681px;
+	position: absolute;
+	background: black;
+}
+.smallserifMMM {
+	width: 36px;
+	height: 45px;
+	position: absolute;
+	top: 299px;
+	left: 1600px;
+	background: black;
+}
+.smallserifMMMM {
+	width: 36px;
+	height: 45px;
+	top: 299px;
+	left: 1681px;
+	position: absolute;
+	background: black;
+}
+.downstrokeM { 
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 1618px;
+	position: absolute;
+	background: black;
+}
+.downstrokeMM { 
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 1690px;
+	position: absolute;
+	background: black;
+}
+.smallserifN {
+	width: 36px;
+	height: 45px;
+	top: 200px;
+	left: 2000px;
+	position: absolute;
+	background: black;
+}
+.smallserifNN {
+	width: 36px;
+	height: 45px;
+	top: 200px;
+	left: 2063px;
+	position: absolute;
+	background: black;
+}
+.smallserifNNN {
+	width: 36px;
+	height: 45px;
+	position: absolute;
+	top: 299px;
+	left: 2000px;
+	background: black;
+}
+.smallserifNNNN {
+	width: 36px;
+	height: 45px;
+	top: 299px;
+	left: 2063px;
+	position: absolute;
+	background: black;
+}
+.downstrokeN { 
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 2018px;
+	position: absolute;
+	background: black;
+}
+.downstrokeNN { 
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 2073px;
+	position: absolute;
+	background: black;
+}
+.largeserifO {
+	width: 90px;
+	height: 45px;
+	top: 200px;
+	left: 2300px;
+	position: absolute;
+	background: black;
+}
+.downstrokeO { 
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 2318px;
+	position: absolute;
+	background: black;
+}
+.largeserifOO {
+	width: 90px;
+	height: 45px;
+	top: 299px;
+	left: 2300px;
+	position: absolute;
+	background: black;
+}
+.downstrokeOO { 
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 2363px;
+	position: absolute;
+	background: black;
+}
+.largeserifP {
+	width: 90px;
+	height: 45px;
+	top: 200px;
+	left: 2500px;
+	position: absolute;
+	background: black;
+}
+.crossbarP {
+	width: 54px;
+	height: 9px;
+	top: 263px;
+	left: 2527px;
+	position: absolute;
+	background: black;
+}
+.downstrokeP{
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 2518px;
+	position: absolute;
+	background: black;
+}
+.squareserifP {
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	top: 299px;
+	left: 2500px;
+	background: black;
+}
+.downstrokePP{
+	width: 9px;
+	height: 27px;
+	top: 245px;
+	left: 2581px;
+	position: absolute;
+	background: black;
+}
+.largeserifQ {
+	width: 90px;
+	height: 45px;
+	top: 200px;
+	left: 2600px;
+	position: absolute;
+	background: black;
+}
+.downstrokeQ { 
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 2618px;
+	position: absolute;
+	background: black;
+}
+.largeserifQQ {
+	width: 90px;
+	height: 45px;
+	top: 299px;
+	left: 2618px;
+	position: absolute;
+	background: black;
+}
+.downstrokeQQ { 
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 2663px;
+	position: absolute;
+	background: black;
+}
+.largeserifR {
+	width: 72px;
+	height: 45px;
+	top: 200px;
+	left: 2800px;
+	position: absolute;
+	background: black;
+}
+.downstrokeR { 
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 2818px;
+	position: absolute;
+	background: black;
+}
+.downstrokeRR { 
+	width: 9px;
+	height: 18px;
+	top: 245px;
+	left: 2863px;
+	position: absolute;
+	background: black;
+}
+.crossbarR {
+	width: 54px;
+	height: 9px;
+	top: 263px;
+	left: 2827px;
+	position: absolute;
+	background: black;
+}
+.downstrokeRRR { 
+	width: 9px;
+	height: 27px;
+	top: 272px;
+	left: 2872px;
+	position: absolute;
+	background: black;
+}
+.smallserifR {
+	width: 36px;
+	height: 45px;
+	top: 299px;
+	left: 2800px;
+	position: absolute;
+	background: black;
+}
+.smallserifRR {
+	width: 36px;
+	height: 45px;
+	top: 299px;
+	left: 2863px;
+	position: absolute;
+	background: black;
+}
+.largeserifS {
+	width: 90px;
+	height: 45px;
+	top: 200px;
+	left: 3000px;
+	position: absolute;
+	background: black;
+}
+.crossbarS {
+	width: 81px;
+	height: 9px;
+	top: 263px;
+	left: 3009px;
+	position: absolute;
+	background: black;
+}
+.downstrokeS{
+	width: 9px;
+	height: 27px;
+	top: 272px;
+	left: 3081px;
+	position: absolute;
+	background: black;
+}
+.downstrokeSS{
+	width: 9px;
+	height: 27px;
+	top: 245px;
+	left: 3000px;
+	position: absolute;
+	background: black;
+}
+.largeserifSS {
+	width: 90px;
+	height: 45px;
+	top: 299px;
+	left: 3000px;
+	position: absolute;
+	background: black;
+}
+.babyserifS {
+	width: 9px;
+	height: 9px;
+	position: absolute;
+	top: 245px;
+	left: 3081px;
+	background: black;
+	}
+.babyserifSS {
+	width: 9px;
+	height: 9px;
+	position: absolute;
+	top: 290px;
+	left: 3000px;
+	background: black;
+	}
+.anotehrserifT {
+	width: 81px;
+	height: 45px;
+	position: absolute;
+	top: 200px;
+	left: 3200px;
+	background: black;
+	}
+.squareserifT {
+	width: 45px;
+	height: 45px;
+	top: 299px;
+	left: 3218px;
+	position: absolute;
+	background: black;
+	}	
+.downstrokeT {
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 3236px;
+	position: absolute;
+	background: black;
+	}
+.babyserifT {
+	width: 9px;
+	height: 9px;
+	position: absolute;
+	top: 245px;
+	left: 3200px;
+	background: black;
+	}
+.babyserifTT {
+	width: 9px;
+	height: 9px;
+	top: 245px;
+	left: 3272px;
+	position: absolute;
+	background: black;
+	}
+.anotehrserifU {
+	width: 63px;
+	height: 45px;
+	position: absolute;
+	top: 299px;
+	left: 3500px;
+	background: black;
+	}
+.downstrokeU { 
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 3500px;
+	position: absolute;
+	background: black;
+	}	
+.downstrokeUU { 
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 3554px;
+	position: absolute;
+	background: black;
+	}
+.smallserifU {
+	width: 36px;
+	height: 45px;
+	top: 200px;
+	left: 3482px;
+	position: absolute;
+	background: black;
+	}
+.smallserifUU {
+	width: 36px;
+	height: 45px;
+	top: 200px;
+	left: 3545px;
+	position: absolute;
+	background: black;
+	}
+.smallserifV {
+	width: 36px;
+	height: 45px;
+	top: 200px;
+	left: 3682px;
+	position: absolute;
+	background: black;
+	}
+.smallserifVV {
+	width: 36px;
+	height: 45px;
+	top: 200px;
+	left: 3745px;
+	position: absolute;
+	background: black;
+	}
+.squareserifV {
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	top: 299px;
+	left: 3709px;
+	background: black;
+	}
+.smallserifW {
+	width: 36px;
+	height: 45px;
+	position: absolute;
+	top: 200px;
+	left: 3900px;
+	background: black;
+}
+.smallserifWW { 
+	width: 36px;
+	height: 45px;
+	top: 200px;
+	left: 3981px;
+	position: absolute;
+	background: black;
+}
+.smallserifWWW {
+	width: 36px;
+	height: 45px;
+	position: absolute;
+	top: 299px;
+	left: 3900px;
+	background: black;
+}
+.smallserifWWWW {
+	width: 36px;
+	height: 45px;
+	top: 299px;
+	left: 3981px;
+	position: absolute;
+	background: black;
+}
+.downstrokeW { 
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 3918px;
+	position: absolute;
+	background: black;
+}
+.downstrokeWW { 
+	width: 9px;
+	height: 54px;
+	top: 245px;
+	left: 3990px;
+	position: absolute;
+	background: black;
+}
+.smallserifX {
+	width: 36px;
+	height: 45px;
+	position: absolute;
+	top: 200px;
+	left: 4100px;
+	background: black;
+}
+.smallserifXX { 
+	width: 36px;
+	height: 45px;
+	top: 200px;
+	left: 4163px;
+	position: absolute;
+	background: black;
+}
+.smallserifXXX {
+	width: 36px;
+	height: 45px;
+	position: absolute;
+	top: 299px;
+	left: 4100px;
+	background: black;
+}
+.smallserifXXXX {
+	width: 36px;
+	height: 45px;
+	top: 299px;
+	left: 4163px;
+	position: absolute;
+	background: black;
+}
+.smallserifY {
+	width: 36px;
+	height: 45px;
+	position: absolute;
+	top: 200px;
+	left: 4300px;
+	background: black;
+}
+.smallserifYY { 
+	width: 36px;
+	height: 45px;
+	top: 200px;
+	left: 4363px;
+	position: absolute;
+	background: black;
+}
+.downstrokeY { 
+	width: 9px;
+	height: 27px;
+	top: 272px;
+	left: 4345px;
+	position: absolute;
+	background: black;
+}
+.squareserifY {
+	width: 45px;
+	height: 45px;
+	top: 299px;
+	left: 4327px;
+	position: absolute;
+	background: black;
+}
+.largeserifZ {
+	width: 90px;
+	height: 45px;
+	top: 200px;
+	left: 4500px;
+	position: absolute;
+	background: black;
+}
+.largeserifZZ {
+	width: 90px;
+	height: 45px;
+	top: 299px;
+	left: 4500px;
+	position: absolute;
+	background: black;
+}
+.babyserifZ {
+	width: 9px;
+	height: 9px;
+	position: absolute;
+	top: 245px;
+	left: 4500px;
+	background: black;
+	}
+.babyserifZZ {
+	width: 9px;
+	height: 9px;
+	position: absolute;
+	top: 290px;
+	left: 4581px;
+	background: black;
+	}
+	
+	
