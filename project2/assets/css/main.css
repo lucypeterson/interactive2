@@ -1,5 +1,5 @@
 body {
-
+background-color: #f1613d;
 }
 .down {
     width: 90px;
@@ -7,7 +7,7 @@ body {
 	top: 299px;
 	left: 150px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
     
     transition: height 5s;
     -moz-transition: height 5s; /* Firefox 4 */
@@ -16,7 +16,6 @@ body {
     -ms-transition: height 5s; /* IE9 (maybe) */
     
 }
-
 .down:hover
 {
     height: 60px;
@@ -27,6 +26,7 @@ body {
 	height: 556px;
 	margin: 100px auto;
 	position: relative;
+	background-color: #f1613d;
 }
 .babyserif {
 	width: 9px;
@@ -34,7 +34,7 @@ body {
 	position: absolute;
 	top: 99%;
 	left: 99%;
-	background: black;
+	background: #fff1d0;
 	display: none;
 }
 .smallserif {
@@ -43,7 +43,7 @@ body {
 	top: 10%;
 	left: 10%;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 	display: none;	
 }
 .anotehrserif {
@@ -52,7 +52,7 @@ body {
 	position: absolute;
 	top: 10%;
 	left: 10%;
-	background: black;
+	background: #fff1d0;
 	display: none;
 }
 .squareserif {
@@ -61,1041 +61,1564 @@ body {
 	position: absolute;
 	top: 10%;
 	left: 30%;
-	background: black;
+	background: #fff1d0;
 }
 .squareserifA {
 	width: 45px;
 	height: 45px;
 	position: absolute;
-	top: 200px;
+	top: 175px;
 	left: 30px;
-	background: black;
+	background: #fff1d0;
 }
 .smallserifA {
 	width: 36px;
 	height: 45px;
 	position: absolute;
-	top: 299px;
+	top: 274px;
 	left: 3px;
-	background: black;
+	background: #fff1d0;
 }
 .smallserifAA {
 	width: 36px;
 	height: 45px;
-	top: 299px;
+	top: 274px;
 	left: 66px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
+}
+.crossbarA {
+	width: 21px;
+    height: 9px;
+    top: 238px;
+    left: 43px;
+    position: absolute;
+    background: #fff1d0;
+}
+.dA{
+	top: 217px;
+    left: 34px;
+    width: 9px;
+    height: 58px;
+    position: absolute;
+    transform: skew(-29deg);
+    background: #fff1d0;
+}
+.dAA{
+	top: 217px;
+    left: 63px;
+    width: 9px;
+    height: 58px;
+    position: absolute;
+    transform: skew(29deg);
+    background: #fff1d0;
 }
 .anotehrserifB {
 	width: 72px;
 	height: 45px;
 	position: absolute;
-	top: 200px;
+	top: 175px;
 	left: 150px;
-	background: black;
+	background: #fff1d0;
 }
 .largeserifB {
 	width: 90px;
 	height: 45px;
-	top: 299px;
+	top: 274px;
 	left: 150px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 	animation: stretch;
 }
 .crossbarB {
 	width: 63px;
 	height: 9px;
-	top: 263px;
+	top: 238px;
 	left: 168px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeB{
 	width: 9px;
 	height: 54px;
-	top: 245px;
+	top: 220px;
 	left: 159px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeBB{
 	width: 9px;
 	height: 18px;
-	top: 245px;
-	left: 214px;
+	top: 220px;
+	left: 213px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeBBB{
 	width: 9px;
 	height: 36px;
-	top: 263px;
+	top: 247px;
 	left: 222px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .largeserifC {
 	width: 90px;
 	height: 45px;
-	top: 200px;
-	left: 275px;
+	top: 175px;
+	left: 295px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .largeserifCC {
 	width: 90px;
 	height: 45px;
-	top: 299px;
-	left: 275px;
+	top: 274px;
+	left: 295px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
-/*
-.downstrokeC { 
-	width: 9px;
-	height: 54px;
-	top: 245px;
-	left: 293px;
-	position: absolute;
-	background: black;
-}
-.largeserifCC {
-	width: 90px;
-	height: 45px;
-	top: 299px;
-	left: 275px;
-	position: absolute;
-	background: black;
-} */
 .babyserifC {
 	width: 9px;
 	height: 9px;
 	position: absolute;
-	top: 245px;
-	left: 356px;
-	background: black;
+	top: 220px;
+	left: 376px;
+	background: #fff1d0;
 	}
 .babyserifCC {
 	width: 9px;
 	height: 9px;
 	position: absolute;
-	top: 290px;
-	left: 356px;
-	background: black;
+	top: 265px;
+	left: 376px;
+	background: #fff1d0;
 	}
 .downstrokeC { 
 	width: 9px;
 	height: 54px;
-	top: 245px;
-	left: 293px;
+	top: 220px;
+	left: 313px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .largeserifD {
 	width: 90px;
 	height: 45px;
-	top: 200px;
-	left: 375px;
+	top: 175px;
+	left: 445px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeD { 
 	width: 9px;
 	height: 54px;
-	top: 245px;
-	left: 393px;
+	top: 220px;
+	left: 463px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .largeserifDD {
 	width: 90px;
 	height: 45px;
-	top: 299px;
-	left: 375px;
+	top: 274px;
+	left: 445px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeDD { 
 	width: 9px;
 	height: 54px;
-	top: 245px;
-	left: 456px;
+	top: 220px;
+	left: 526px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .largeserifE {
 	width: 90px;
 	height: 45px;
-	top: 200px;
-	left: 500px;
+	top: 175px;
+	left: 580px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .crossbarE {
 	width: 45px;
 	height: 9px;
-	top: 263px;
-	left: 523px;
+	top: 238px;
+	left: 603px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeE{
 	width: 9px;
 	height: 54px;
-	top: 245px;
-	left: 518px;
+	top: 220px;
+	left: 598px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .largeserifEE {
 	width: 90px;
 	height: 45px;
-	top: 299px;
-	left: 500px;
+	top: 274px;
+	left: 580px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .largeserifF {
 	width: 90px;
 	height: 45px;
-	top: 200px;
-	left: 600px;
+	top: 175px;
+	left: 710px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .crossbarF {
 	width: 45px;
 	height: 9px;
-	top: 263px;
-	left: 618px;
+	top: 238px;
+	left: 728px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeF{
 	width: 9px;
 	height: 54px;
-	top: 245px;
-	left: 618px;
+	top: 220px;
+	left: 728px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .squareserifF {
 	width: 45px;
 	height: 45px;
 	position: absolute;
-	top: 299px;
-	left: 600px;
-	background: black;
+	top: 274px;
+	left: 710px;
+	background: #fff1d0;
 }
 .largeserifG {
 	width: 90px;
 	height: 45px;
-	top: 200px;
-	left: 775px;
+	top: 175px;
+	left: 840px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeG { 
 	width: 9px;
 	height: 54px;
-	top: 245px;
-	left: 793px;
+	top: 220px;
+	left: 858px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .upstrokeG { 
 	width: 9px;
 	height: 36px;
-	top: 263px;
-	left: 856px;
+	top: 238px;
+	left: 921px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .crossbarG {
 	width: 45px;
 	height: 9px;
-	top: 263px;
-	left: 820px;
+	top: 238px;
+	left: 885px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .largeserifGG {
 	width: 90px;
 	height: 45px;
-	top: 299px;
-	left: 775px;
+	top: 274px;
+	left: 840px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .smallserifH {
 	width: 36px;
 	height: 45px;
 	position: absolute;
-	top: 200px;
-	left: 875px;
-	background: black;
+	top: 175px;
+	left: 975px;
+	background: #fff1d0;
 }
 .smallserifHH{
 	width: 36px;
 	height: 45px;
-	top: 200px;
-	left: 938px;
+	top: 175px;
+	left: 1038px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .smallserifHHH {
 	width: 36px;
 	height: 45px;
 	position: absolute;
-	top: 299px;
-	left: 875px;
-	background: black;
+	top: 274px;
+	left: 975px;
+	background: #fff1d0;
 }
 .smallserifHHHH{
 	width: 36px;
 	height: 45px;
-	top: 299px;
-	left: 938px;
+	top: 274px;
+	left: 1038px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeH { 
 	width: 9px;
 	height: 54px;
-	top: 245px;
-	left: 947px;
+	top: 220px;
+	left: 1047px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeHH { 
 	width: 9px;
 	height: 54px;
-	top: 245px;
-	left: 893px;
+	top: 220px;
+	left: 993px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .crossbarH {
 	width: 45px;
 	height: 9px;
-	top: 263px;
-	left: 902px;
+	top: 238px;
+	left: 1002px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .smallserifI {
 	width: 45px;
 	height: 45px;
 	position: absolute;
-	top: 200px;
-	left: 1000px;
-	background: black;
+	top: 175px;
+	left: 1110px;
+	background: #fff1d0;
 }
 .smallserifII {
 	width: 45px;
 	height: 45px;
-	top: 299px;
-	left: 1000px;
+	top: 274px;
+	left: 1110px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeI{ 
 	width: 9px;
 	height: 54px;
-	top: 245px;
-	left: 1018px;
+	top: 220px;
+	left: 1128px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .squareserifJ {
 	width: 45px;
 	height: 45px;
 	position: absolute;
-	top: 200px;
-	left: 1146px;
-	background: black;
+	top: 175px;
+	left: 1236px;
+	background: #fff1d0;
 }
 .downstrokeJ{
 	width: 9px;
 	height: 54px;
-	top: 245px;
-	left: 1163px;
+	top: 220px;
+	left: 1253px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .largeserifJ {
 	width: 72px;
 	height: 45px;
-	top: 299px;
-	left: 1100px;
+	top: 274px;
+	left: 1190px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .babyserifJ {
 	width: 9px;
 	height: 9px;
 	position: absolute;
-	top: 290px;
-	left: 1100px;
-	background: black;
+	top: 265px;
+	left: 1190px;
+	background: #fff1d0;
 } 
 .smallserifk {
 	width: 36px;
 	height: 45px;
 	position: absolute;
-	top: 200px;
-	left: 1200px;
-	background: black;
+	top: 175px;
+	left: 1320px;
+	background: #fff1d0;
 }
 .smallserifkk {
 	width: 36px;
 	height: 45px;
-	top: 200px;
-	left: 1254px;
+	top: 175px;
+	left: 1374px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .smallserifkkk {
 	width: 36px;
 	height: 45px;
 	position: absolute;
-	top: 299px;
-	left: 1200px;
-	background: black;
+	top: 274px;
+	left: 1320px;
+	background: #fff1d0;
 }
 .smallserifkkkk {
 	width: 36px;
 	height: 45px;
-	top: 299px;
-	left: 1263px;
+	top: 274px;
+	left: 1383px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .crossbark {
 	width: 45px;
 	height: 9px;
-	top: 263px;
-	left: 1227px;
+	top: 238px;
+	left: 1347px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokek {
 	width: 9px;
 	height: 54px;
-	top: 245px;
-	left: 1218px;
+	top: 220px;
+	left: 1338px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokekk {
 	width: 9px;
 	height: 18px;
-	top: 245px;
-	left: 1263px;
+	top: 220px;
+	left: 1383px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokekkk {
 	width: 9px;
 	height: 36px;
-	top: 264px;
-	left: 1272px;
+	top: 238px;
+	left: 1392px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .largeserifL {
 	width: 90px;
 	height: 45px;
-	top: 299px;
-	left: 1350px;
+	top: 274px;
+	left: 1460px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeL { 
 	width: 9px;
 	height: 54px;
-	top: 245px;
-	left: 1368px;
+	top: 220px;
+	left: 1478px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .squareserifL {
 	width: 45px;
 	height: 45px;
 	position: absolute;
-	top: 200px;
-	left: 1350px;
-	background: black;
+	top: 175px;
+	left: 1460px;
+	background: #fff1d0;
 }
 .babyserifL {
 	width: 9px;
 	height: 9px;
 	position: absolute;
-	top: 290px;
-	left: 1431px;
-	background: black;
+	top: 265px;
+	left: 1541px;
+	background: #fff1d0;
 }
 .smallserifM {
 	width: 36px;
 	height: 45px;
 	position: absolute;
-	top: 200px;
+	top: 175px;
 	left: 1600px;
-	background: black;
+	background: #fff1d0;
 }
 .smallserifMM { 
 	width: 36px;
 	height: 45px;
-	top: 200px;
+	top: 175px;
 	left: 1681px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .smallserifMMM {
 	width: 36px;
 	height: 45px;
 	position: absolute;
-	top: 299px;
+	top: 274px;
 	left: 1600px;
-	background: black;
+	background: #fff1d0;
 }
 .smallserifMMMM {
 	width: 36px;
 	height: 45px;
-	top: 299px;
+	top: 274px;
 	left: 1681px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeM { 
 	width: 9px;
 	height: 54px;
-	top: 245px;
+	top: 220px;
 	left: 1618px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeMM { 
 	width: 9px;
 	height: 54px;
-	top: 245px;
+	top: 220px;
 	left: 1690px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
+}
+.dM{
+	top: 198px;
+    left: 1631px;
+    width: 9px;
+    height: 58px;
+    position: absolute;
+    transform: skew(34deg);
+    background: #fff1d0;
+}
+.dMM{
+    top: 211px;
+    left: 1673px;
+    width: 9px;
+    height: 45px;
+    position: absolute;
+    transform: skew(-34deg);
+    background: #fff1d0;
 }
 .smallserifN {
 	width: 36px;
 	height: 45px;
-	top: 200px;
-	left: 2000px;
+	top: 175px;
+	left: 1760px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .smallserifNN {
 	width: 36px;
 	height: 45px;
-	top: 200px;
-	left: 2063px;
+	top: 175px;
+	left: 1823px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .smallserifNNN {
 	width: 36px;
 	height: 45px;
 	position: absolute;
-	top: 299px;
-	left: 2000px;
-	background: black;
+	top: 274px;
+	left: 1760px;
+	background: #fff1d0;
 }
 .smallserifNNNN {
 	width: 36px;
 	height: 45px;
-	top: 299px;
-	left: 2063px;
+	top: 274px;
+	left: 1823px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeN { 
 	width: 9px;
 	height: 54px;
-	top: 245px;
-	left: 2018px;
+	top: 220px;
+	left: 1778px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeNN { 
 	width: 9px;
 	height: 54px;
-	top: 245px;
-	left: 2073px;
+	top: 220px;
+	left: 1833px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
+}
+.dN{
+	top: 219px;
+    left: 1805px;
+    width: 9px;
+    height: 58px;
+    position: absolute;
+    transform: skew(44deg);
+    background: #fff1d0;
 }
 .largeserifO {
 	width: 90px;
 	height: 45px;
-	top: 200px;
-	left: 2300px;
+	top: 175px;
+	left: 1900px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeO { 
 	width: 9px;
 	height: 54px;
-	top: 245px;
-	left: 2318px;
+	top: 220px;
+	left: 1918px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .largeserifOO {
 	width: 90px;
 	height: 45px;
-	top: 299px;
-	left: 2300px;
+	top: 274px;
+	left: 1900px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeOO { 
 	width: 9px;
 	height: 54px;
-	top: 245px;
-	left: 2363px;
+	top: 220px;
+	left: 1963px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .largeserifP {
 	width: 90px;
 	height: 45px;
-	top: 200px;
-	left: 2500px;
+	top: 175px;
+	left: 2030px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .crossbarP {
 	width: 54px;
 	height: 9px;
-	top: 263px;
-	left: 2527px;
+	top: 238px;
+	left: 2057px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeP{
 	width: 9px;
 	height: 54px;
-	top: 245px;
-	left: 2518px;
+	top: 220px;
+	left: 2048px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .squareserifP {
 	width: 45px;
 	height: 45px;
 	position: absolute;
-	top: 299px;
-	left: 2500px;
-	background: black;
+	top: 274px;
+	left: 2030px;
+	background: #fff1d0;
 }
 .downstrokePP{
 	width: 9px;
 	height: 27px;
-	top: 245px;
-	left: 2581px;
+	top: 220px;
+	left: 2111px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .largeserifQ {
 	width: 90px;
 	height: 45px;
-	top: 200px;
-	left: 2600px;
+	top: 175px;
+	left: 2160px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeQ { 
 	width: 9px;
 	height: 54px;
-	top: 245px;
-	left: 2618px;
+	top: 220px;
+	left: 2169px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .largeserifQQ {
 	width: 90px;
 	height: 45px;
-	top: 299px;
-	left: 2618px;
+	top: 274px;
+	left: 2168px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeQQ { 
 	width: 9px;
 	height: 54px;
-	top: 245px;
-	left: 2663px;
+	top: 220px;
+	left: 2223px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .largeserifR {
 	width: 72px;
 	height: 45px;
-	top: 200px;
-	left: 2800px;
+	top: 175px;
+	left: 2300px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeR { 
 	width: 9px;
 	height: 54px;
-	top: 245px;
-	left: 2818px;
+	top: 220px;
+	left: 2318px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeRR { 
 	width: 9px;
 	height: 18px;
-	top: 245px;
-	left: 2863px;
+	top: 220px;
+	left: 2363px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .crossbarR {
 	width: 54px;
 	height: 9px;
-	top: 263px;
-	left: 2827px;
+	top: 238px;
+	left: 2327px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeRRR { 
 	width: 9px;
 	height: 27px;
-	top: 272px;
-	left: 2872px;
+	top: 247px;
+	left: 2372px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .smallserifR {
 	width: 36px;
 	height: 45px;
-	top: 299px;
-	left: 2800px;
+	top: 274px;
+	left: 2300px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .smallserifRR {
 	width: 36px;
 	height: 45px;
-	top: 299px;
-	left: 2863px;
+	top: 274px;
+	left: 2363px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .largeserifS {
 	width: 90px;
 	height: 45px;
-	top: 200px;
-	left: 3000px;
+	top: 175px;
+	left: 2440px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .crossbarS {
 	width: 81px;
 	height: 9px;
-	top: 263px;
-	left: 3009px;
+	top: 238px;
+	left: 2449px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeS{
 	width: 9px;
 	height: 27px;
-	top: 272px;
-	left: 3081px;
+	top: 247px;
+	left: 2521px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeSS{
 	width: 9px;
 	height: 27px;
-	top: 245px;
-	left: 3000px;
+	top: 220px;
+	left: 2440px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .largeserifSS {
 	width: 90px;
 	height: 45px;
-	top: 299px;
-	left: 3000px;
+	top: 274px;
+	left: 2440px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .babyserifS {
 	width: 9px;
 	height: 9px;
 	position: absolute;
-	top: 245px;
-	left: 3081px;
-	background: black;
+	top: 220px;
+	left: 2521px;
+	background: #fff1d0;
 	}
 .babyserifSS {
 	width: 9px;
 	height: 9px;
 	position: absolute;
-	top: 290px;
-	left: 3000px;
-	background: black;
+	top: 265px;
+	left: 2440px;
+	background: #fff1d0;
 	}
 .anotehrserifT {
 	width: 81px;
 	height: 45px;
 	position: absolute;
-	top: 200px;
-	left: 3200px;
-	background: black;
+	top: 175px;
+	left: 2580px;
+	background: #fff1d0;
 	}
 .squareserifT {
 	width: 45px;
 	height: 45px;
-	top: 299px;
-	left: 3218px;
+	top: 274px;
+	left: 2598px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 	}	
 .downstrokeT {
 	width: 9px;
 	height: 54px;
-	top: 245px;
-	left: 3236px;
+	top: 220px;
+	left: 2616px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 	}
 .babyserifT {
 	width: 9px;
 	height: 9px;
 	position: absolute;
-	top: 245px;
-	left: 3200px;
-	background: black;
+	top: 220px;
+	left: 2580px;
+	background: #fff1d0;
 	}
 .babyserifTT {
 	width: 9px;
 	height: 9px;
-	top: 245px;
-	left: 3272px;
+	top: 220px;
+	left: 2652px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 	}
 .anotehrserifU {
 	width: 63px;
 	height: 45px;
 	position: absolute;
-	top: 299px;
-	left: 3500px;
-	background: black;
+	top: 274px;
+	left: 2720px;
+	background: #fff1d0;
 	}
 .downstrokeU { 
 	width: 9px;
 	height: 54px;
-	top: 245px;
-	left: 3500px;
+	top: 220px;
+	left: 2720px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 	}	
 .downstrokeUU { 
 	width: 9px;
 	height: 54px;
-	top: 245px;
-	left: 3554px;
+	top: 220px;
+	left: 2774px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 	}
 .smallserifU {
 	width: 36px;
 	height: 45px;
-	top: 200px;
-	left: 3482px;
+	top: 175px;
+	left: 2702px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 	}
 .smallserifUU {
 	width: 36px;
 	height: 45px;
-	top: 200px;
-	left: 3545px;
+	top: 175px;
+	left: 2765px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 	}
 .smallserifV {
 	width: 36px;
 	height: 45px;
-	top: 200px;
-	left: 3682px;
+	top: 175px;
+	left: 2842px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 	}
 .smallserifVV {
 	width: 36px;
 	height: 45px;
-	top: 200px;
-	left: 3745px;
+	top: 175px;
+	left: 2905px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 	}
 .squareserifV {
 	width: 45px;
 	height: 45px;
 	position: absolute;
-	top: 299px;
-	left: 3709px;
-	background: black;
+	top: 274px;
+	left: 2869px;
+	background: #fff1d0;
 	}
+.dV{
+	top: 216px;
+    left: 2872px;
+    width: 9px;
+    height: 58px;
+    position: absolute;
+    transform: skew(27deg);
+    background: #fff1d0;
+}
+.dVV{
+    top: 216px;
+    left: 2902px;
+    width: 9px;
+    height: 58px;
+    position: absolute;
+    transform: skew(-27deg);
+    background: #fff1d0;
+}
 .smallserifW {
 	width: 36px;
 	height: 45px;
 	position: absolute;
-	top: 200px;
-	left: 3900px;
-	background: black;
+	top: 175px;
+	left: 2980px;
+	background: #fff1d0;
 }
 .smallserifWW { 
 	width: 36px;
 	height: 45px;
-	top: 200px;
-	left: 3981px;
+	top: 175px;
+	left: 3061px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .smallserifWWW {
 	width: 36px;
 	height: 45px;
 	position: absolute;
-	top: 299px;
-	left: 3900px;
-	background: black;
+	top: 274px;
+	left: 2980px;
+	background: #fff1d0;
 }
 .smallserifWWWW {
 	width: 36px;
 	height: 45px;
-	top: 299px;
-	left: 3981px;
+	top: 274px;
+	left: 3061px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeW { 
 	width: 9px;
 	height: 54px;
-	top: 245px;
-	left: 3918px;
+	top: 220px;
+	left: 2998px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeWW { 
 	width: 9px;
 	height: 54px;
-	top: 245px;
-	left: 3990px;
+	top: 220px;
+	left: 3070px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
+}
+.dW{
+	top: 246px;
+    left: 3052px;
+    width: 9px;
+    height: 34px;
+    position: absolute;
+    transform: skew(49deg);
+    background: #fff1d0;
+}
+.dWW{
+    top: 246px;
+    left: 3008px;
+    width: 9px;
+    height: 44px;
+    position: absolute;
+    transform: skew(-48deg);
+    background: #fff1d0;
 }
 .smallserifX {
 	width: 36px;
 	height: 45px;
 	position: absolute;
-	top: 200px;
-	left: 4100px;
-	background: black;
+	top: 175px;
+	left: 3140px;
+	background: #fff1d0;
 }
 .smallserifXX { 
 	width: 36px;
 	height: 45px;
-	top: 200px;
-	left: 4163px;
+	top: 175px;
+	left: 3203px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .smallserifXXX {
 	width: 36px;
 	height: 45px;
 	position: absolute;
-	top: 299px;
-	left: 4100px;
-	background: black;
+	top: 274px;
+	left: 3140px;
+	background: #fff1d0;
 }
 .smallserifXXXX {
 	width: 36px;
 	height: 45px;
-	top: 299px;
-	left: 4163px;
+	top: 274px;
+	left: 3203px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
+}
+.dX{
+	top: 218px;
+    left: 3184px;
+    width: 9px;
+    height: 56px;
+    position: absolute;
+    transform: skew(42deg);
+    background: #fff1d0;
+}
+.dXX{
+    top: 216px;
+    left: 3185px;
+    width: 9px;
+    height: 58px;
+    position: absolute;
+    transform: skew(-42deg);
+    background: #fff1d0;
 }
 .smallserifY {
 	width: 36px;
 	height: 45px;
 	position: absolute;
-	top: 200px;
-	left: 4300px;
-	background: black;
+	top: 175px;
+	left: 3280px;
+	background: #fff1d0;
 }
 .smallserifYY { 
 	width: 36px;
 	height: 45px;
-	top: 200px;
-	left: 4363px;
+	top: 175px;
+	left: 3343px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .downstrokeY { 
 	width: 9px;
 	height: 27px;
-	top: 272px;
-	left: 4345px;
+	top: 247px;
+	left: 3325px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .squareserifY {
 	width: 45px;
 	height: 45px;
-	top: 299px;
-	left: 4327px;
+	top: 274px;
+	left: 3307px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
+}
+.dY{
+	top: 214px;
+    left: 3311px;
+    width: 9px;
+    height: 38px;
+    position: absolute;
+    transform: skew(36deg);
+    background: #fff1d0;
+}
+.dYY{
+    top: 212px;
+    left: 3339px;
+    width: 9px;
+    height: 38px;
+    position: absolute;
+    transform: skew(-36deg);
+    background: #fff1d0;
 }
 .largeserifZ {
 	width: 90px;
 	height: 45px;
-	top: 200px;
-	left: 4500px;
+	top: 175px;
+	left: 3420px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .largeserifZZ {
 	width: 90px;
 	height: 45px;
-	top: 299px;
-	left: 4500px;
+	top: 274px;
+	left: 3420px;
 	position: absolute;
-	background: black;
+	background: #fff1d0;
 }
 .babyserifZ {
 	width: 9px;
 	height: 9px;
 	position: absolute;
-	top: 245px;
-	left: 4500px;
-	background: black;
+	top: 220px;
+	left: 3420px;
+	background: #fff1d0;
 	}
 .babyserifZZ {
 	width: 9px;
 	height: 9px;
 	position: absolute;
-	top: 290px;
-	left: 4581px;
-	background: black;
+	top: 265px;
+	left: 3501px;
+	background: #fff1d0;
 	}
-	
-	
+.dZ{
+	top: 220px;
+    left: 3460px;
+    width: 9px;
+    height: 54px;
+    position: absolute;
+    transform: skew(-56deg);
+    background: #fff1d0;
+}
+.anotherserifzero {
+	top: 175px;
+	left: 3560px;
+	width: 72px;
+	height: 45px;
+	position: absolute;
+	background: #fff1d0;
+}
+.anotherserifzeroz {
+	width: 72px;
+	height: 45px;
+	position: absolute;
+	top: 274px;
+	left: 3560px;
+	background: #fff1d0;
+}
+.downstrokezero {
+	width: 9px;
+	height: 54px;
+	top: 220px;
+	left: 3560px;
+	position: absolute;
+	background: #fff1d0;
+}
+.downstrokezeroz {
+	width: 9px;
+	height: 54px;
+	top: 220px;
+	left: 3623px;
+	position: absolute;
+	background: #fff1d0;
+}
+.smallserifone { 
+	width: 36px;
+    height: 45px;
+    top: 274px;
+    left: 3673px;
+    position: absolute;
+    background: #fff1d0;
+}
+.downstrokeone {
+	width: 9px;
+	height: 54px;
+	top: 220px;
+	left: 3687px;
+	position: absolute;
+	background: #fff1d0;
+}
+.smallserifoneone { 
+	width: 27px;
+    height: 45px;
+    top: 175px;
+    left: 3669px;
+    position: absolute;
+    background: #fff1d0;
+}
+.smallserifoneoneone { 
+	width: 9px;
+    height: 18px;
+    top: 202px;
+    left: 3660px;
+    position: absolute;
+    background: #fff1d0;
+}
+.largeseriftwo {
+	width: 90px;
+	height: 45px;
+	top: 175px;
+	left: 3750px;
+	position: absolute;
+	background: #fff1d0;
+}
+.crossbartwo {
+	width: 81px;
+	height: 9px;
+	top: 238px;
+	left: 3750px;
+	position: absolute;
+	background: #fff1d0;
+}
+.downstroketwo {
+	width: 9px;
+	height: 27px;
+	top: 247px;
+	left: 3750px;
+	position: absolute;
+	background: #fff1d0;
+}
+.downstroketwotwo {
+	width: 9px;
+	height: 27px;
+	top: 220px;
+	left: 3831px;
+	position: absolute;
+	background: #fff1d0;
+}
+.largeseriftwotwo {
+	width: 90px;
+	height: 45px;
+	top: 274px;
+	left: 3750px;
+	position: absolute;
+	background: #fff1d0;
+}
+.babyseriftwo {
+	width: 9px;
+	height: 9px;
+	position: absolute;
+	top: 265px;
+	left: 3831px;
+	background: #fff1d0;
+	}
+.babyseriftwotwo {
+	width: 9px;
+	height: 9px;
+	position: absolute;
+	top: 220px;
+	left: 3750px;
+	background: #fff1d0;
+	}
+.largeserifthree {
+	width: 90px;
+	height: 45px;
+	top: 175px;
+	left: 3890px;
+	position: absolute;
+	background: #fff1d0;
+}
+.crossbarthree {
+	width: 45px;
+	height: 9px;
+	top: 238px;
+	left: 3908px;
+	position: absolute;
+	background: #fff1d0;
+}
+.downstrokethree {
+	width: 9px;
+	height: 54px;
+	top: 220px;
+	left: 3953px;
+	position: absolute;
+	background: #fff1d0;
+}
+.largeserifthreethree {
+	width: 90px;
+	height: 45px;
+	top: 274px;
+	left: 3890px;
+	position: absolute;
+	background: #fff1d0;
+}
+.squareseriffour{
+	width: 45px;
+	height: 45px;
+	top: 274px;
+	left: 4103px;
+	position: absolute;
+	background: #fff1d0;
+}
+.smallseriffour {
+	width: 36px;
+	height: 45px;
+	position: absolute;
+	top: 175px;
+	left: 4040px;
+	background: #fff1d0;
+}
+.smallseriffourfour { 
+	width: 36px;
+	height: 45px;
+	top: 175px;
+	left: 4103px;
+	position: absolute;
+	background: #fff1d0;
+}
+.crossbarfour {
+	width: 81px;
+	height: 9px;
+	top: 238px;
+	left: 4049px;
+	position: absolute;
+	background: #fff1d0;
+}
+.downstrokefour {
+	width: 9px;
+	height: 54px;
+	top: 220px;
+	left: 4121px;
+	position: absolute;
+	background: #fff1d0;
+}
+.downstrokefourfour {
+	width: 9px;
+	height: 27px;
+	top: 220px;
+	left: 4049px;
+	position: absolute;
+	background: #fff1d0;
+}
+.largeseriffive {
+	width: 90px;
+	height: 45px;
+	top: 175px;
+	left: 4200px;
+	position: absolute;
+	background: #fff1d0;
+}
+.crossbarfive {
+	width: 81px;
+	height: 9px;
+	top: 238px;
+	left: 4209px;
+	position: absolute;
+	background: #fff1d0;
+}
+.downstrokefive{
+	width: 9px;
+	height: 27px;
+	top: 247px;
+	left: 4281px;
+	position: absolute;
+	background: #fff1d0;
+}
+.downstrokefivefive{
+	width: 9px;
+	height: 27px;
+	top: 220px;
+	left: 4200px;
+	position: absolute;
+	background: #fff1d0;
+}
+.largeseriffivefive {
+	width: 90px;
+	height: 45px;
+	top: 274px;
+	left: 4200px;
+	position: absolute;
+	background: #fff1d0;
+}
+.largeserifsix {
+	width: 90px;
+	height: 45px;
+	top: 175px;
+	left: 4340px;
+	position: absolute;
+	background: #fff1d0;
+}
+.largeserifsixsix {
+	width: 90px;
+	height: 45px;
+	top: 274px;
+	left: 4340px;
+	position: absolute;
+	background: #fff1d0;
+}
+.downstrokesix {
+	width: 9px;
+	height: 54px;
+	top: 220px;
+	left: 4340px;
+	position: absolute;
+	background: #fff1d0;
+}
+.downstrokesixsix {
+	width: 9px;
+	height: 27px;
+	top: 247px;
+	left: 4421px;
+	position: absolute;
+	background: #fff1d0;
+}
+.crossbarsix {
+	width: 81px;
+	height: 9px;
+	top: 238px;
+	left: 4349px;
+	position: absolute;
+	background: #fff1d0;
+}
+.largeserifseven {
+	width: 90px;
+	height: 45px;
+	top: 175px;
+	left: 4500px;
+	position: absolute;
+	background: #fff1d0;
+}
+.squareserifseven{
+	width: 45px;
+	height: 45px;
+	top: 274px;
+	left: 4518px;
+	position: absolute;
+	background: #fff1d0;
+}
+.dseven{
+	top: 218px;
+    left: 4556px;
+    width: 9px;
+    height: 57px;
+    position: absolute;
+    transform: skew(-42deg);
+    background: #fff1d0;
+}
+.largeserifeight {
+	width: 90px;
+	height: 45px;
+	top: 175px;
+	left: 4640px;
+	position: absolute;
+	background: #fff1d0;
+}
+.largeserifeighteight {
+	width: 90px;
+	height: 45px;
+	top: 274px;
+	left: 4640px;
+	position: absolute;
+	background: #fff1d0;
+}
+.downstrokeeight {
+	width: 9px;
+	height: 54px;
+	top: 220px;
+	left: 4640px;
+	position: absolute;
+	background: #fff1d0;
+}
+.downstrokeseighteight {
+	width: 9px;
+	height: 54px;
+	top: 220px;
+    left: 4721px;
+	position: absolute;
+	background: #fff1d0;
+}
+.crossbareight{
+	width: 81px;
+	height: 9px;
+	top: 238px;
+	left: 4649px;
+	position: absolute;
+	background: #fff1d0;
+}
+
+.largeserifnine {
+	width: 81px;
+	height: 45px;
+	top: 175px;
+	left: 4779px;
+	position: absolute;
+	background: #fff1d0;
+}
+.crossbarnine {
+	width: 81px;
+	height: 9px;
+	top: 238px;
+	left: 4779px;
+	position: absolute;
+	background: #fff1d0;
+}
+.downstrokenine {
+	width: 9px;
+	height: 54px;
+	top: 220px;
+	left: 4851px;
+	position: absolute;
+	background: #fff1d0;
+}
+.downstrokeninenine {
+	width: 9px;
+	height: 27px;
+	top: 220px;
+	left: 4779px;
+	position: absolute;
+	background: #fff1d0;
+}
+.squareserifnine{
+	width: 45px;
+	height: 45px;
+	top: 274px;
+	left: 4833px;
+	position: absolute;
+	background: #fff1d0;
+}
+/*.smallserifoneone { 
+	width: 27px;
+    height: 45px;
+    top: 175px;
+    left: 3669px;
+    position: absolute;
+    background: #fff1d0;
+}
+.smallserifoneoneone { 
+	width: 9px;
+    height: 18px;
+    top: 2023px;
+    left: 3660px;
+    position: absolute;
+    background: #fff1d0;
+}
+.period {
+	width: 27px;
+	height: 27px;
+	top: 292px;
+	left: 4800px;
+}

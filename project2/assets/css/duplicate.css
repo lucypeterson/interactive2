@@ -1,5 +1,5 @@
 body {
-	background-color: #d8a528;
+	background-color: #0E9EC2;
 
 }
 #selector {
@@ -7,11 +7,11 @@ body {
 }
 
 .down {
-    transition: height 5s;
-    -moz-transition: height 5s; /* Firefox 4 */
-    -webkit-transition: height 5s; /* Safari and Chrome */
-    -o-transition: height 5s; /* Opera */
-    -ms-transition: height 5s; /* IE9 (maybe) */
+    transition: all 5s;
+    -moz-transition: all  5s; /* Firefox 4 */
+    -webkit-transition: all  5s; /* Safari and Chrome */
+    -o-transition: all  5s; /* Opera */
+    -ms-transition: all  5s; /* IE9 (maybe) */
     
 }
 
@@ -19,6 +19,7 @@ body {
 {
     height: 300px;
     transition: height .5s;
+    background-color: #F4D169; 
 }
 
 .up {
@@ -34,6 +35,8 @@ body {
 {
     height: 500px;
     transition: height .5s;
+    background-color: #BF9533; 
+    
 }
 .right {
     transition: width 5s;
@@ -48,34 +51,35 @@ body {
 {
     width: 300px;
     transition: width .5s;
+    background-color: #4b241d;
 }
 .left {
-    transition: width 5s;
-    -moz-transition: width 5s; /* Firefox 4 */
-    -webkit-transition: width 5s; /* Safari and Chrome */
-    -o-transition: width 5s; /* Opera */
-    -ms-transition: width 5s; /* IE9 (maybe) */
-    
+    transition: all 5s;
+    -moz-transition: all 5s; /* Firefox 4 */
+    -webkit-transition: all 5s; /* Safari and Chrome */
+    -o-transition: all 5s; /* Opera */
+    -ms-transition: all 5s; /* IE9 (maybe) */
+    /*transition: background-color .5s ease;*/ 
 }
-
 .left:hover
 {
     width: 400px;
     transition: width .5s;
+    background-color: #fff1d0;
 }
 
 .canvas {
-	width: 5000px;
+	width: 3100px;
 	height: 556px;
 	margin: 100px auto;
 	position: relative;
-	background-color: #d8a528;
+	background-color: #0E9EC2;
 }
 .squareserifA {
 	width: 45px;
 	height: 45px;
 	position: absolute;
-	top: 300px;
+	bottom: 209px;
 	left: 70px;
 	background: black;
 }
@@ -127,7 +131,7 @@ body {
 	height: 45px;
 	position: absolute;
 	top: 100px;
-	right: 4777px;
+	right: 2877px;
 	background: black;
 }
 .largeserifB {
@@ -183,7 +187,7 @@ body {
 	width: 90px;
 	height: 45px;
 	top: 349px;
-	right: 4635px;
+	right: 2735px;
 	position: absolute;
 	background: black;
 }
@@ -288,7 +292,7 @@ body {
 	width: 90px;
 	height: 45px;
 	top: 419px;
-	right: 4410px;
+	right: 2510px;
 	position: absolute;
 	background: black;
 }
@@ -328,7 +332,7 @@ body {
 	width: 90px;
 	height: 45px;
 	top: 240px;
-	right: 4209px;
+	right: 2309px;
 	position: absolute;
 	background: black;
 }
@@ -385,7 +389,7 @@ body {
 	height: 45px;
 	position: absolute;
 	top: 274px;
-	left: 825px;
+	right: 2236px;
 	background: black;
 }
 .smallserifHHHH{
@@ -425,7 +429,7 @@ body {
 	height: 45px;
 	position: absolute;
 	top: 180px;
-	right: 3975px;
+	right: 2075px;
 	background: black;
 }
 .smallserifII {
@@ -464,7 +468,7 @@ body {
 	width: 72px;
 	height: 45px;
 	top: 399px;
-	right: 3928px;
+	right: 2028px;
 	position: absolute;
 	background: black;
 }
@@ -497,7 +501,7 @@ body {
 	height: 45px;
 	position: absolute;
 	top: 499px;
-	left: 1125px;
+	right: 1937px;
 	background: black;
 }
 .smallserifkkkk {
@@ -583,7 +587,7 @@ body {
 .smallserifMM { 
 	width: 36px;
 	height: 45px;
-	top: 350px;
+	bottom: 161px;
 	left: 1481px;
 	position: absolute;
 	background: black;
@@ -642,7 +646,7 @@ body {
 	width: 36px;
 	height: 45px;
 	bottom: 311px;
-	left: 1550px;
+	right: 1516px;
 	position: absolute;
 	background: black;
 }
@@ -715,7 +719,7 @@ body {
 	width: 90px;
 	height: 45px;
 	top: 174px;
-	right: 3210px;
+	right: 1309px;
 	position: absolute;
 	background: black;
 }
@@ -731,7 +735,7 @@ body {
 	width: 90px;
 	height: 45px;
 	top: 400px;
-	right: 3110px;
+	right: 1210px;
 	position: absolute;
 	background: black;
 }
@@ -771,7 +775,7 @@ body {
 	width: 90px;
 	height: 45px;
 	top: 240px;
-	right: 3090px;
+	right: 1190px;
 	position: absolute;
 	background: black;
 }
@@ -891,7 +895,7 @@ body {
 	width: 90px;
 	height: 45px;
 	top: 234px;
-	right: 2810px;
+	right: 910px;
 	position: absolute;
 	background: black;
 }
@@ -986,7 +990,7 @@ body {
 .smallserifUU {
 	width: 36px;
 	height: 45px;
-	top: 100px;
+	bottom: 411px;
 	left: 2345px;
 	position: absolute;
 	background: black;
@@ -1033,7 +1037,6 @@ body {
     transform: skew(-27deg);
     background: black;
 }
-
 .smallserifW {
 	width: 36px;
 	height: 45px;
@@ -1127,7 +1130,7 @@ body {
 .smallserifXXXX {
 	width: 36px;
 	height: 45px;
-	top: 299px;
+	bottom: 210px;
 	left: 2763px;
 	position: absolute;
 	background: black;
@@ -1161,7 +1164,7 @@ body {
 .smallserifYY { 
 	width: 36px;
 	height: 45px;
-	top: 300px;
+	bottom: 212px;
 	left: 2963px;
 	position: absolute;
 	background: black;
@@ -1204,7 +1207,7 @@ body {
 	width: 90px;
 	height: 45px;
 	top:100px;
-	right: 1910px;
+	right: 10px;
 	position: absolute;
 	background: black;
 }
