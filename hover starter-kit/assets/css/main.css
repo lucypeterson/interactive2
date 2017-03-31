@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+
+}
+
+.canvas {
+	width: 900px;
+	height: 900px;
+	margin: 0px auto;
+	background: white;
+	position: relative;
+	background-color: #94EB7C;
+}
+.canvas:hover {
+	width: 900px;
+	height: 900px;
+	margin: 0px auto;
+	background: white;
+	position: relative;
+	background-color: #FFE933;
+}
+
+.ice{
+	width: 900px;
+    height: 900px;
+    bottom: 300px;
+    background-image: url("../sketch.png");
+    background-size: cover;
+    display: block;
+    margin: 0 auto;
+    background-color: #94EB7C;
+}
+.ice:hover{
+	width: 900px;
+    height: 900px;
+    bottom: 300px;
+    background-image: url("../sketch2.png");
+    background-size: cover;
+    display: block;
+    margin: 0 auto;
+    background-color: #FFE933;
+}
