@@ -1,0 +1,17 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: green;
+}
+.canvas {
+	width: 300vw;
+	height: 150vh;
+	margin: 0px auto;
+	background: #FFF8E9;
+	position: relative;
+}
+.text {
+	font-family: 'Cutive Mono', monospace;
+}
