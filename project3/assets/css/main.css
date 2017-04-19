@@ -8,17 +8,12 @@ body {
 	overflow-y: hidden;
     cursor: crosshair;
 }
-
-}
-
 .canvas {
-	width: 300vw;
+	width: 4500px;
 	height: 150vh;
 	margin: 0px auto;
 	background: #FFF8E9;
 	position: relative;
-
-
 }
 .photo:hover {
 	transform: none;
@@ -49,12 +44,11 @@ body {
  	background-size: cover;
 
 } 
-
-
-.photo1:hover {
-	top:100px;
-	left: 100px;
-	transform: scale(4,4);
+.photo1:hover{
+    top:100px;
+    left: 100px;
+    transform: scale(4,4);
+    opacity: 1;
 }
 .photo2 {
 	top: -70px;
@@ -236,8 +230,8 @@ body {
 	transform: scale(4,4);
 }
 .photo11 {
-	top: 339px;
-    left: 3301px;
+	top: 139px;
+    left: 3201px;
 	position: absolute;
 	width: 100px;
 	height: 99px;
@@ -256,8 +250,8 @@ body {
 	transform: scale(3,3);
 }
 .photo12 {
-	top: 337px;
-    left: 2952px;
+	top: 173px;
+    left: 2823px;
 	position: absolute;
 	width: 100px;
 	height: 114px;
@@ -333,72 +327,79 @@ body {
 .text1{
 	font-family: 'Cutive Mono', monospace;
     position: absolute;
-    left: 65px;
+    left: 19px;
     top: 106px;
     width: 80px;
     opacity: 0;
-    font-size: 2px;
-    line-height: 130%;
+    font-size: 3px;
+    line-height: 140%;
+    text-align: right;
 }
 .text2{
 	font-family: 'Cutive Mono', monospace;
     position: absolute;
-    left: 58px;
+    left: 22px;
     top: 102px;
     width: 80px;
     opacity: 0;
-    font-size: 2px;
-    line-height: 130%;
+    font-size: 3px;
+    line-height: 140%;
+    text-align: right;
 }
 .text3{
-	font-family: 'Cutive Mono', monospace;
+    font-family: 'Cutive Mono', monospace;
     position: absolute;
     top: 6px;
-    left: 98px;
+    left: 96px;
     width: 180px;
     opacity: 0;
-    font-size: 2px;
-    line-height: 130%;
+    font-size: 3px;
+    line-height: 140%;
+    text-align: left;
 }
 .text4{
 	font-family: 'Cutive Mono', monospace;
     position: absolute;
     top: 6px;
-    left: 161px;
+    left: 156px;
     width: 180px;
     opacity: 0;
-    font-size: 2px;
-    line-height: 130%;
+    font-size: 3px;
+    line-height: 140%;
+    text-align: left;
 }
 .text5{
 	font-family: 'Cutive Mono', monospace;
     position: absolute;
-    left: 78px;
+    left: 18px;
     top: 102px;
     width: 80px;
     opacity: 0;
-    font-size: 2px;
-    line-height: 130%;
+    font-size: 3px;
+    line-height: 140%;
+    text-align: right;
 }
 .text6{
 	font-family: 'Cutive Mono', monospace;
     position: absolute;
-    left: 58px;
+    left: 19px;
     top: 107px;
     width: 80px;
     opacity: 0;
-    font-size: 2px;
-    line-height: 130%;
+    font-size: 3px;
+    line-height: 140%;
+    text-align: right;
 }
 .text7{
 	font-family: 'Cutive Mono', monospace;
     position: absolute;
-    left: 63px;
-    top: 106px;
+    left: 18px;
+    top: 103px;
     width: 80px;
     opacity: 0;
-    font-size: 2px;
-    line-height: 130%;
+    font-size: 3px;
+    line-height: 140%;
+    text-align: right;
 }
 /*.text8{
 	font-family: 'Cutive Mono', monospace;
@@ -413,22 +414,24 @@ body {
 .text9{
 	font-family: 'Cutive Mono', monospace;
     position: absolute;
-    left: 105px;
+    left: 61px;
     top: 156px;
-    width: 80px;
+    width: 86px;
     opacity: 0;
-    font-size: 2px;
-    line-height: 130%;
+    font-size: 4px;
+    line-height: 140%;
+    text-align: right;
 }
 .text10{
 	font-family: 'Cutive Mono', monospace;
     position: absolute;
-    left: 108px;
+    left: 59px;
     top: 149px;
     width: 80px;
     opacity: 0;
-    font-size: 2px;
-    line-height: 130%;
+    font-size: 3px;
+    line-height: 140%;
+    text-align: right;
 }
 .text11{
 	font-family: 'Cutive Mono', monospace;
@@ -437,28 +440,31 @@ body {
     top: 106px;
     width: 80px;
     opacity: 0;
-    font-size: 2px;
-    line-height: 130%;
+    font-size: 3px;
+    line-height: 140%;
+    text-align: right;
 }
 .text12{
 	font-family: 'Cutive Mono', monospace;
     position: absolute;
-    left: 31px;
+    left: -5px;
     top: 117px;
-    width: 80px;
+    width: 104px;
     opacity: 0;
-    font-size: 2px;
-    line-height: 130%;
+    font-size: 3px;
+    line-height: 140%;
+    text-align: right;
 }
 .text13{
 	font-family: 'Cutive Mono', monospace;
     position: absolute;
-    left: 73px;
+    left: 19px;
     top: 102px;
     width: 80px;
     opacity: 0;
-    font-size: 2px;
-    line-height: 130%;
+    font-size: 3px;
+    line-height: 140%;
+    text-align: right;
 }
 .text14{
 	font-family: 'Cutive Mono', monospace;
@@ -467,33 +473,98 @@ body {
     top: 106px;
     width: 80px;
     opacity: 0;
-    font-size: 2px;
-    line-height: 130%;
+    font-size: 3px;
+    line-height: 140%;
+    text-align: right;
 }
+
 .biotext{
-	font-family: 'Cutive Mono', monospace;
+    font-family: 'Cutive Mono', monospace;
     position: absolute;
-    left: 3002px;
-    /*top: 124px;*/
-    padding-top: 100px;
-    width: 491px;
     font-size: 110px;
-    font-size: 15px;
-    line-height: 122%;
-    opacity: .7;
+    font-size: 13px;
+    line-height: 162%;
+    opacity: .5;
+      -webkit-transition:opacity 3s ease-out;
+      -moz-transition:opacity 3s ease-out;
+      -ms-transition:opacity 3s ease-out;
+      -o-transition:opacity 3s ease-out;
+      transition:opacity 3s ease-out;
+      opacity:0.2;
+}
+
+.biotext:hover {
+  opacity:1;
+}
+
+.bio1{
+    position: absolute;
+    left: 59px;
+    top: 595px;
+    width: 370px;
+}
+.bio2{
+    position: absolute;
+    left: 1620px;
+    top: 80px;
+    width: 190px
 
 }
-.arrow{
-	top: 625px;
-	left:5px;
-	width: 200px;
-	height:50px;
-	position: absolute;
-	background-image: url(../img/arrow.png);
- 	background-size: cover;
- 	opacity: .3;
+.bio3{
+    position: absolute;
+    left: 1720px;
+    top: 606px;
+    width: 390px;
+}
+.bio4{
+    position: absolute;
+    left: 3022px;
+    top: 99px;
+    width: 390px;
+}
 
+a, a:visited { 
+    color:black; text-decoration:none; 
+    }
+
+.sfmoma{
+    position: absolute;
+    left: 4600px;
+    top: 600px;
+    width: 129px;
+    height: 49px;
+    opacity: .2;
+    background-image: url(../img/header-logo.png);
+    background-size: cover;
+}
+.box1 {
+    position: absolute;
+    left: 2322px;
+    top: -8px;
+    width: 190px;
+    height: 300px;
+    background-color: red;
+    opacity:0;
 
 }
+.box2{
+    position: absolute;
+    left: 3722px;
+    top: -8px;
+    width: 390px;
+    height: 300px;
+    background-color: red;
+    opacity:0;
+}
+.box3{
+    position: absolute;
+    left: 4822px;
+    top: -8px;
+    width: 390px;
+    height: 800px;
+    background-color: red;
+    opacity: 0;
+}
+
 
 

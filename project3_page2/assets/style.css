@@ -1,0 +1,82 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #FFF8E9;
+	height: 100%;
+	overflow-y: hidden;
+    cursor: crosshair;
+}
+.canvas {
+	width: 100vw;
+	height: 150vh;
+	margin: 0px auto;
+	background: #FFF8E9;
+	position: relative;
+}
+.text {
+	font-family: 'Cutive Mono', monospace;
+    position: absolute;
+    left: 202px;
+    top: -58px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 900px;
+    line-height: 2;
+}
+
+
+.bio {
+    font-family: 'Cutive Mono', monospace;
+    position: absolute;
+    width: 500px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    top: 200px;
+    left: 441px;
+    line-height: 1.3;
+   }
+
+.related {
+	font-family: 'Cutive Mono', monospace;
+    position: absolute;
+    width: 550px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.3;
+    font-size: 12px;
+}
+
+.related1 {
+	top:500px;
+	left:128px;
+}
+
+.related2{
+	top:500px;
+	left:509px;
+}
+
+.related3{
+	top:500px;
+	left:940px;
+}
+.sfmoma{
+    position: absolute;
+    left: 1300px;
+    top: 600px;
+    width: 129px;
+    height: 49px;
+    opacity: .2;
+    background-image: url(../assets/header-logo.png);
+    background-size: cover;
+ }
+
+
+
+
+

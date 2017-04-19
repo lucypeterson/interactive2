@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+	white-space: nowrap;
+	background: #f1613d;
+}
+
+iframe {
+	border: none;
+	margin: 0;
+	display: inline-block;
+	height: 100vh;
+	overflow: hidden;
+}
+#wildwest {
+	width: 100vw;
+	min-width:1500px
+}
+#duplicate {
+  width: 3459px;
+}
+#main {
+  width: 5222px;
+}

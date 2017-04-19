@@ -7,17 +7,20 @@ iframe {
 	margin: 0;
 	position: absolute;
 	height: 100vh;
-	width: 2000px;
+	width: 1273px;
 	overflow: hidden;
 }
 #wildwest {
 	left: 0;
+	overflow:hidden;
 }
 #duplicate {
-	left: 2000px;
-	width: 3100px
+	left: 933px;
+    width: 3459px;
+    overflow:hidden;
 }
 #main {
-	left: 5100px;
-	width: 5000px;
+	left: 4339px;
+    width: 5222px;
+    display: none;
 }
