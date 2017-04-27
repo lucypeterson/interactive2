@@ -2,14 +2,51 @@
 <html>
 
 <head>
-	<title>project 3</title>
+	<title>Francesca Woodman</title>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" href="assets/css/main.css" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
+	<script>
+		$(document).ready(function() {
+
+
+
+// fixed
+ 	$(".bio1").click(function() {
+		$('html, body').animate({
+		scrollLeft: $(".photo4").offset().left
+		}, 1200);
+	});
+ 	$(".bio2").click(function() {
+		$('html, body').animate({
+		scrollLeft: $(".box1").offset().left
+		}, 1200);
+	});
+	$(".bio3").click(function() {
+		$('html, body').animate({
+		scrollLeft: $(".box2").offset().left
+		}, 1200);
+	});
+	$(".bio4").click(function() {
+		$('html, body').animate({
+		scrollLeft: $(".box3").offset().left
+		}, 1200);
+	});
+// no
+
+});
+
+	</script>
+
+</head>
 <body>
     <div class="canvas">
 
+    		<div class="title titlemv">
+    		<h1>Francesca Woodman</h1>
+    		</div>
 
 	       <div class="photo photo1 pht1"><img>
 	       		<div class="text text1">
@@ -68,6 +105,11 @@
 			</div>
 
 	       <div class="photo photo8"><img>
+		       <div class="text text8">
+						 Untitled
+				       	<br>
+				       	Providence, Rhode Island
+				    </div>
 	       </div>
 
 	       <div class="photo photo9"><img>
@@ -87,6 +129,11 @@
 			</div>
 
 	       <div class="photo photo11"><img>
+		       <div class="text text11">
+							 Untitled
+					       	<br>
+					       	Providence, Rhode Island
+					    </div>
 	       </div>
 
 	       <div class="photo photo12"><img>
@@ -108,33 +155,38 @@
 			</div>
 
 	       <div class="photo photo14"><img>
+		       <div class="text text14">
+						 Untitled
+				       	<br>
+				       	Providence, Rhode Island
+				    </div>
 	       </div>
 
 
-     <a href="#jump1"><div class="biotext bio1">
+     <div class="biotext bio1">
       
-       	Francesca Woodman (1958-1981) was an artist decisively of her time, yet her photographs retain an undeniable immediacy.
+       	Francesca Woodman (1958-1981) was an artist decisively of her time, yet her photographs retain an <u>undeniable immediacy</u>.
 
-      </div></a>
+      </div>
 
       
-      <a name="jump1"><div class="box1"></div></a>
+      <div class="box1"></div>
 
-      <a href="#jump2"><div class="biotext bio2">
-       	Thirty years after her death, they continue to inspire audiences with their dazzling ambiguities and their remarkably rich explorations of self-portraiture and the body in architectural space. 
-       	</div></a>
+      <div class="biotext bio2">
+       	Thirty years after her death, they continue to inspire audiences with their <u>dazzling</u> ambiguities and their remarkably rich explorations of self-portraiture and the body in <u>architectural space</u>.
+       	</div>
 
-      <a name="jump2">
+      
       <div class="box2"></div>
 
       <a href="#jump3"><div class="biotext bio4">
-       	This retrospective, the first in the United States in more than two decades, explores the complex body of work produced by the young artist until her suicide at age of 22. 
-      </div></a>
+       	This retrospective, the first in the United States in more than two decades, explores the <u>complex body of work</u> produced by the young artist until her suicide at age of 22. 
+      </div>
 
-    	<a name="jump3">
+    	
     	<div class="box3"></div>
 
-       <a href="../project3_page2/index.html"><div class="sfmoma"><img></div></a>
+       <a href="../project3_page2/index.html"><div class="about"> about </div></a>
 
 
    </div>
