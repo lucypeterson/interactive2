@@ -19,8 +19,10 @@ body {
 a, a:visited { 
     color:black; text-decoration:none; 
     }
-.animation{
-    animation: titleprss 15s forwards;
+.animationmv{
+    animation: titleprss 5s forwards;
+    
+    
 }
 @keyframes titleprss{
     0%{
@@ -30,7 +32,15 @@ a, a:visited {
         opacity: 0;
     }
 }  
-
+.animationhover{
+    transition: all 2s;
+    opacity: 0;
+}
+.animationhover:hover {
+  opacity:1;
+  
+  animation-play-state: paused;
+}
 .text {
 	font-family: 'Cutive Mono', monospace;
     position: relative;
@@ -38,6 +48,7 @@ a, a:visited {
     text-align: center;
     width: 900px;
     line-height: 2;
+     opacity: .7;
 }
 
 .bio {
@@ -49,7 +60,10 @@ a, a:visited {
     top:3%;
     font-size: 13px;
     line-height: 162%;
+    opacity: .7;
    }
+
+
 
 .related {
     top: 107px;
@@ -80,6 +94,8 @@ a, a:visited {
     	/*left:940px;*/
          float: right; width: 33%;
     }
+
+
 .sfmoma{
     position: relative;
     margin:auto;
